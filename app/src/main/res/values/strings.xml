@@ -12,4 +12,20 @@
     <string name="_8">8</string>
     <string name="_0">0</string>
     <string name="_9">9</string>
+    <string name="mufaro_emmanuel_makiwa">Mufaro Emmanuel Makiwa</string>
+    <string name="i_love_mit">
+        Dear 6.009 Students,\n\n
+        As we mentioned in our previous post, we have transitioned office hours to remote-only. This applies not only to evening office hours, but also to help sessions during tutorial and lab times as well.\n\n
+        We have made some changes to the help queue system to help facilitate these remote interactions. This new system will be a bit of an adjustment from the in-person office hours, but we hope that it will allow us to continue to provide effective help and guidance, as well as meaningful checkoff conversations, despite these interactions happening remotely.\n\n
+        Asking for help or a checkoff in this new system starts the same way as before, by adding yourself to the help queue (from the same link in the top menu bar). Once you reach the top of the queue and a staff member is ready to assist you, you will see a link prompting you to \"Click here to chat with them.\" This link will open a new tab for a video chat with that staff member. The queue will also beep when a staff member is ready to assist you.\n\n
+        <b>Please Note</b> that Safari will not work with this video chat system. Please use Firefox or Chromium/Chrome.\n\n
+        <i>Before asking for help on a lab</i>, it is really helpful if you have submitted your most recent work to the \"Code Submission\" section of that lab. This allows us to see your progress and to refer directly to your code as it currently stands. Even if you haven\'t made any changes, you can submit the starter code.\n\n
+        One of the useful tools of the video chat is that you can click on the screen button in the lower left corner to share your screen for showing code and error messages. You can also select a specific window to share, so it is possible (and encouraged), for example, only to share your code editor with the staff member (rather than your entire desktop).\n\n
+        If possible, it is also helpful if you wear headphones during the video chats, in order to cut down on feedback.\n\n
+        Of course, if you have any questions about the system, please don\'t hesitate to ask.\n\n
+
+       </string>
+
+    <string name="text_to_be_added">Text to be added</string>
+    <string name="toast">TOAST</string>
 </resources>
