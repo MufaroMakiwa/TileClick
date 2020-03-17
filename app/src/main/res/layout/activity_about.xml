@@ -10,9 +10,12 @@
         android:id="@+id/textView"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:background="#03A9F4"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
         android:text="@string/mufaro_emmanuel_makiwa"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline13"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -47,14 +50,17 @@
                 android:id="@+id/initial_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="#00D37373"
+                android:fontFamily="@font/aclonica"
                 android:text="@string/i_love_mit" />
 
             <Button
                 android:id="@+id/toast"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/toast"
-                android:layout_gravity="center"/>
+                android:layout_gravity="center"
+                android:onClick="showToast"
+                android:text="@string/toast" />
 
         </LinearLayout>
 
@@ -64,6 +70,9 @@
         android:id="@+id/textView2"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:background="#03A9F4"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
         android:text="@string/text_to_be_added"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
