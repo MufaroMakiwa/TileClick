@@ -40,19 +40,36 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@id/guideline15"
-        app:layout_constraintTop_toBottomOf="@id/guideline13">
+        app:layout_constraintTop_toBottomOf="@id/guideline13"
+        android:baselineAligned="false">
 
         <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
 
-            
+            <TextView
+                android:id="@+id/initial_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00D37373"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/i_love_mit"/>
 
         </ScrollView>
 
         <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/final_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00D37373"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/i_love_mit"/>
 
         </ScrollView>
 
