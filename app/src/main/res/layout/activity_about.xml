@@ -41,10 +41,9 @@
         app:layout_constraintBottom_toTopOf="@id/guideline15"
         app:layout_constraintTop_toBottomOf="@id/guideline13">
 
-        <LinearLayout
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/initial_text"
@@ -54,6 +53,7 @@
                 android:fontFamily="@font/aclonica"
                 android:text="@string/i_love_mit" />
 
+
             <Button
                 android:id="@+id/toast"
                 android:layout_width="wrap_content"
@@ -62,7 +62,7 @@
                 android:onClick="showToast"
                 android:text="@string/toast" />
 
-        </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
     </ScrollView>
 
