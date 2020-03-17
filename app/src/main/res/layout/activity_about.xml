@@ -35,31 +35,31 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.9180577" />
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toTopOf="@id/guideline15"
         app:layout_constraintTop_toBottomOf="@id/guideline13">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <TextView
-                android:id="@+id/initial_text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="#00D37373"
-                android:fontFamily="@font/aclonica"
-                android:text="@string/i_love_mit"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"/>
+            
 
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
 
-    </ScrollView>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
 
     <TextView
         android:id="@+id/textView2"
