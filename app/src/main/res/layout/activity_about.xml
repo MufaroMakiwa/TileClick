@@ -43,7 +43,11 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@id/guideline15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guideline13">
 
             <TextView
                 android:id="@+id/initial_text"
@@ -51,16 +55,12 @@
                 android:layout_height="wrap_content"
                 android:background="#00D37373"
                 android:fontFamily="@font/aclonica"
-                android:text="@string/i_love_mit" />
+                android:text="@string/i_love_mit"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"/>
 
-
-            <Button
-                android:id="@+id/toast"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:onClick="showToast"
-                android:text="@string/toast" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
